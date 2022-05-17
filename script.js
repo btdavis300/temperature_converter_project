@@ -2,12 +2,7 @@ const celciusInput = document.getElementById("celcius");
 const fahrenheitInput = document.getElementById("fahrenheit");
 const kelvinInput = document.getElementById("kelvin");
 
-// console.log(celciusInput)
-// console.log(fahrenheitInput)
-// console.log(kelvinInput)
-
 const inputs = document.getElementsByClassName("input");
-// console.log(inputs)
 
 for(let i=0; i<inputs.length; i++) {
     let input = inputs[i];
